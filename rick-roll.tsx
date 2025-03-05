@@ -120,7 +120,6 @@ export default function RickRoll() {
                 height: "100%",
               }}
               autoPlay
-              muted
               playsInline
               controls={false}
               onClick={handleUnmute}

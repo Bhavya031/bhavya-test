@@ -120,10 +120,11 @@ export default function RickRoll() {
                 height: "100%",
               }}
               autoPlay
+              muted
               playsInline
               controls={false}
               onClick={handleUnmute}
-              src="/rickroll.mp4"
+              src="https://raw.githubusercontent.com/Bhavya031/bhavya-test/refs/heads/main/public/rickroll.mp4"
             />
             {/* Unmute button */}
             <button
@@ -165,4 +166,3 @@ export default function RickRoll() {
     </>
   )
 }
-
